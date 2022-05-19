@@ -1,0 +1,45 @@
+.home {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  grid-template-rows: 2rem 1fr;
+  font-size: 1.6rem;
+}
+
+.sidebar{
+  grid-row: 1/-1;
+  grid-column: 1/2;
+  background-color: $color-sidebar;
+}
+
+.nav{
+  grid-column: 2/-1;
+  grid-row: 1/2;
+  max-height: 2rem;
+  background-color: $color-white;
+}
+
+.main {
+  grid-column: 2/-1;
+  grid-row: 2/-1;
+  padding: 2rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  .task {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    width: 30rem;
+
+    &__text {
+      border: var(--input-border);
+      // padding: 0.5rem;
+      width: 90%;
+      display: flex;
+      align-items: center;
+    }
+
+  }
+}

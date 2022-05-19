@@ -1,0 +1,23 @@
+@mixin task {
+  display: flex;
+  font-size: 1.6rem;
+  width: 40rem;
+}
+
+@mixin task-text {
+  border: var(--input-border);
+  padding: 0.5rem;
+  margin-right: auto;
+  width: 90%;
+}
+
+@mixin task-icon {
+  border: var(--input-border);
+  font-weight: 300;
+  width: 10%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+  align-items: center;
+}

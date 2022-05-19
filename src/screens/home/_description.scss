@@ -1,0 +1,94 @@
+.description {
+  width: 30rem;
+  font-size: 2.1rem;
+  margin-top: 2rem;
+  background-color: $color-blue-light;
+  padding-bottom: 1rem;
+
+  &__form{
+    padding: 2rem 1rem;
+  }
+
+  .task__input{
+    width: 100%;
+    margin-right: -15%;
+    padding: 0.5rem;
+  }
+
+  .task__container{
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .icon-d{
+    max-width: 5rem;
+    max-height: 5rem;
+  }
+
+  &__timing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__time{
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .duration1{
+    margin-right: 1rem;
+  }
+
+  .select_cotainer{
+    display: flex;
+    flex-direction: column;
+
+    & > select {
+      padding: 0.5rem;
+      margin-top: 1rem;
+    }
+  }
+
+  &__btns{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.5rem;
+
+    & > *:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+  }
+
+  .btn {
+    padding: 0.5rem;
+    border: none;
+    transition: all 0.3s;
+
+    &:hover, &:active{
+      transform: translateY(-3px);
+      box-shadow: 1rem 2rem 4rem rgba(0,0,0,0.3);
+    }
+  }
+
+  .save {
+    color: $color-white;
+    background-color: green;
+    border: none;
+  }
+
+  .cancel{
+    background-color: transparent;
+  }
+
+  .delete__btn{
+    margin-right: auto;
+    background-color: #e0e0d1;
+    
+  }
+}

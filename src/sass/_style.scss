@@ -1,0 +1,18 @@
+.container {
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  grid-template-rows: 100vh ;
+}
+
+
+$color-secondary: #f2f2f2;
+$color-secondary-dark: rgb(153, 153, 102);
+
+$color-blue-light: #cce6ff;
+
+.app{
+  width: 100vw;
+  height: 100%;
+  background-color:$color-secondary ;
+}
